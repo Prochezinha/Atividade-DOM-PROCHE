@@ -1,6 +1,6 @@
 // Seletores do DOM
 const taskForm = document.getElementById('taskForm');
-const taskInput = document.getElementsById('taskInput');
+const taskInput = document.getElementById('taskInput');
 const taskList = document.getElementById('taskList');
 
 // Função que cria um <li> com texto e botão "Remover"
@@ -13,7 +13,7 @@ deleteBtn.textContent = 'Remover';
 deleteBtn.className = 'delete-btn';
 deleteBtn.type = 'button';
 li.appendChild(span);
-li.appendChild(deleteBnt);
+li.appendChild(deleteBtn);
 return li;
 }
 
